@@ -1,3 +1,3 @@
 # projetosTLP
 
-Projetos da matériad de Tópicos em Linguagem de  Programação
+Projetos da matéria de Tópicos em Linguagem de  Programação
