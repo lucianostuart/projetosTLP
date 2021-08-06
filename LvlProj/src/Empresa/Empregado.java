@@ -1,11 +1,19 @@
 package src.Empresa;
 
+import java.util.LinkedList;
+
 class Empregado {
     private String cpf;
     private String cep;
     private String nome;
     private String matricula;
-    private String endereco;    
+    private String endereco;
+    private Departamento departamento;
+    private LinkedList<Projeto> projetos;    
+
+    public Departamento getDepartamento() {
+        return departamento;
+    }
 
     public String getCep() {
         return cep;
@@ -33,6 +41,10 @@ class Empregado {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public void setDepartamento(Departamento departamento) {
+        this.departamento = departamento;
     }
 
     public void setEndereco(String endereco) {

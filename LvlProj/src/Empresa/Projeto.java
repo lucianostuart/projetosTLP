@@ -6,7 +6,7 @@ class Projeto {
     private String nome;
     private LinkedList<Empregado> empregados = new LinkedList<Empregado>();
     private double verba;
-
+    
     public void setEmpregados(LinkedList<Empregado> empregados) {
         this.empregados = empregados;
     }
