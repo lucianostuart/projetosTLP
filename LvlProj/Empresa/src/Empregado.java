@@ -1,5 +1,3 @@
-package src.Empresa;
-
 import java.util.LinkedList;
 
 class Empregado {

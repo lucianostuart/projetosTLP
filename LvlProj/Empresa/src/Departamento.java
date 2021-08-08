@@ -1,11 +1,14 @@
-package src.Empresa;
-
 import java.util.LinkedList;
 
 class Departamento {
     private String nome;
     private String sigla;
+    private Empregado gerente;
     private LinkedList<Empregado> empregados;
+
+    public Empregado getGerente() {
+        return gerente;
+    }
 
     public String getNome() {
         return nome;
@@ -29,5 +32,9 @@ class Departamento {
 
     public void setSigla(String sigla) {
         this.sigla = sigla;
+    }
+
+    public void setGerente(Empregado gerente) {
+        this.gerente = gerente;
     }
 }

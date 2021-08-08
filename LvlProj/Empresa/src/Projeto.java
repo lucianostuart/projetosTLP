@@ -1,10 +1,8 @@
-package src.Empresa;
-
 import java.util.LinkedList;
 
 class Projeto {
     private String nome;
-    private LinkedList<Empregado> empregados = new LinkedList<Empregado>();
+    private LinkedList<Empregado> empregados;
     private double verba;
     
     public void setEmpregados(LinkedList<Empregado> empregados) {
